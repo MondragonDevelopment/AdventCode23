@@ -42,7 +42,7 @@ def power(game):
     return pow
 
 
-with open('data2') as data:
+with open('data/data2') as data:
     answer = 0
     sumPowers = 0
     for line in data:
